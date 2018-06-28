@@ -19,3 +19,15 @@ a {
 footer a {
 	color: #fff;
 }
+/*Media Queries*/
+@media(max-width: 414px) {
+	h5 {
+		font-size: 1rem;
+	}
+	.form-control {
+		width: 90%;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+}

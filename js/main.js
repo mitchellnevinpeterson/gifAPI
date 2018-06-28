@@ -19,7 +19,7 @@ $.ajax({
 			// document.body.appendChild(img)
 			// img.src = data.data[i].images.original.url 
 			// Or I can use the += on the innerHTML
-			document.getElementById("divRow").innerHTML += "<div class='col-4'><a href='" + data.data[i].bitly_gif_url + "'><h5 class='text-center mt-3'>" + data.data[i].title.toUpperCase() + "</h5><img class='img-fluid p-3 d-block mx-auto' src='" + data.data[i].images.original.url + "'></a></div>"
+			document.getElementById("divRow").innerHTML += "<div class='col-6 col-md-4'><a href='" + data.data[i].bitly_gif_url + "'><h5 class='text-center mt-3'>" + data.data[i].title.toUpperCase() + "</h5><img class='img-fluid p-3 d-block mx-auto' src='" + data.data[i].images.original.url + "'></a></div>"
 		}
 		if(userNumber > 3) {
 		document.getElementById("footer").innerHTML += "<div class='d-block mx-auto text-center m-5'><a href='#'><h3>Back to search</h3></a></div>"
