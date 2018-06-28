@@ -1,0 +1,18 @@
+body{
+	background-image: url(../img/bodyBG.png);
+	font-family: 'Kaushan Script', cursive;
+	color: #fff;
+	text-shadow: 2px 2px 3px #000;
+}
+.form-control {
+	width: 50%;
+	margin-top: 25px;
+}
+.row {
+	background-image: url(../img/gifBG.jpg);
+	border-radius: 10px;
+	font-family: 'Permanent Marker', cursive;
+}
+a {
+	text-decoration: none;
+}
