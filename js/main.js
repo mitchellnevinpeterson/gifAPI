@@ -38,7 +38,7 @@ function clearGifs() {
 	var userNumber = document.getElementById("userNumber").value = ""
 }
 
-// Triggering the function tip() anytime the enter key is pressed
+// Triggering the function getGifs() anytime the enter key is pressed
 addEventListener("keydown", function (enter){
 	if (enter.keyCode === 13) {
 		enter.preventDefault()
