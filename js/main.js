@@ -10,7 +10,7 @@ if(userNumber === ""){
 }
 $.ajax({
 	// you can change the q= to a different name to get different gifs
-	url: 'http://api.giphy.com/v1/gifs/search?q=' + userInput + '&api_key=joqrfJhFL6OUq0wFalto5G15rCf9uUyS&limit=' + userNumber + "'",
+	url: 'https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/search?q=' + userInput + '&api_key=joqrfJhFL6OUq0wFalto5G15rCf9uUyS&limit=' + userNumber + "'",
 	dataType: "json",
 	success: function(data) {
 		console.log("Success", data)
